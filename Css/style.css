@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1 {
+    margin-right: 40%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.main button {
+    width: 145px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+}
+
+button:hover{
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .text {
+    width: 50%;
+}
+
+.text h1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.text p{
+    margin-top: 10px;
+}
+
+.text .text_point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.text_point .fas{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contact {
+    width: 50%;
+    height: 80vh;
+    /* background-color:rgb(100, 216, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_contact {
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_contact .Name {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+.Name button {
+    width: 160px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.Email {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+.Email button {
+    width: 160px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.Location {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+.Location button {
+    width: 160px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.last button {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: rgb(255, 0, 85);
+    border: 0;
+    border-radius: 8px;
+}
+
+.last button:hover{
+    transform: rotateY(5px);
+    background-color: black;
+    color: white;
+}
+
+.Topic h1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.contant-1{
+    width: 35%;
+    height: 30vh;
+    border-right: 1px solid blue;
+}
+
+.Master_Yoda{
+    margin-top: 20px;
+}
+
+.contant-2{
+    width: 35%;
+    height: 30vh;
+    border-right: 1px solid blue;
+}
+
+.contant-3{
+    width: 35%;
+    height: 30vh;
+    border-right: 1px solid blue;
+}
+
+.contant-3 img{
+    width: 30%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.contant-2 img{
+    width: 30%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.contant-1 img{
+    width: 30%;
+    height: 50px;
+    margin-top: 40px;
+}
