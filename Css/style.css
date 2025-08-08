@@ -281,7 +281,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
     gap: 20px;
     padding: 40px;
 }
