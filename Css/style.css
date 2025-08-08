@@ -42,7 +42,6 @@ nav h1 {
 }
 
 button:hover{
-    border: 1px solid blue;
     cursor: pointer;
 }
 
@@ -119,6 +118,11 @@ button:hover{
     width: 160px;
     height: 60px;
     margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 2px;
+    border: 0;
+    border-radius: 80px;
+    color: gray;
 }
 
 .Email {
@@ -133,6 +137,11 @@ button:hover{
     width: 160px;
     height: 60px;
     margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 2px;
+    border: 0;
+    border-radius: 80px;
+    color: gray;
 }
 
 .Location {
@@ -147,6 +156,11 @@ button:hover{
     width: 160px;
     height: 60px;
     margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 2px;
+    border: 0;
+    border-radius: 80px;
+    color: gray;
 }
 
 .last button {
@@ -218,3 +232,326 @@ button:hover{
     height: 50px;
     margin-top: 40px;
 }
+
+.content_center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.Mobile_app h3{
+    margin-top: 20px;
+}
+
+.Mobile_app p{
+    margin-top: 20px;
+}
+
+.Mobile_app img{
+    border-radius: 8px;
+}
+
+.Destop_app h3{
+    margin-top: 20px;
+}
+
+.Destop_app p{
+    margin-top: 20px;
+}
+
+.Destop_app img{
+    border-radius: 8px;
+}
+
+.Multiple_user h3{
+    margin-top: 20px;
+}
+
+.Multiple_user p{
+    margin-top: 20px;
+}
+
+.Multiple_user img{
+    border-radius: 8px;
+}
+
+.Information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.Information .Information_right{
+    width: 50%;
+}
+
+.Information_right p{
+    margin-top: 20px;
+}
+
+.button button{
+    margin-top: 20px;
+    width: 20%;
+    height: 50px;
+    background-color: red;
+    border: 0;
+}
+
+.button #BTU{
+    margin-top: 20px;
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.button button:hover{
+    transform: translateY(-2px);
+}
+
+.button #BTU:hover{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.Information .Information_left{
+    width: 50%;
+}
+
+.Information_left img{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.our_process{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.our_process h3{
+    color: red;
+}
+
+.our_process h1{
+    font-weight: bold;
+    color: black;
+}
+
+.numbers_tast{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.numbers_tast h1{
+    width: 33%;
+    height: 150px;
+    background-color: rgba(216, 112, 147, 0.116);
+    color: red;
+    border-radius: 75px;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Download{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Account{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Enjoy{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Browser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Box_Task{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.Box_Mobile{
+    width: 90%;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Box_Mobile img{
+    border-radius: 8px;
+}
+
+.Box_task2{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 40px;
+    gap: 20px;
+}
+
+.Box_question{
+    width: 90%;
+    height: 20vh;
+    padding: 18px;
+    background-color: white;
+    box-shadow: 0 0 3px; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Box_question .fas{
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box_question .questions{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.questions #P{
+    font-size: 1.5em;
+}
+
+.Footer_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.Intergrations p{
+    margin-top: 20px;
+}
+
+.Paragraph{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Paragraph button{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    margin-top: 15px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 2px;
+    border: 0;
+
+}
+
+.Marketing p{
+    margin-top: 35px;
+}
+
+.Head p{
+    margin-top: 35px;
+}
+
+.Solution p{
+    margin-top: 35px;
+}
+
+.Editors p{
+    margin-top: 50px;
+}
+
+.Footer_2{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Footer_2 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.Footer_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.Footer_3 .Privacy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+
+
