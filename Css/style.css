@@ -373,6 +373,11 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+
+.numbers_tast h1:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 2px;
+}
 .Download{
     width: 50%;
     display: flex;
